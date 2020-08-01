@@ -1,25 +1,17 @@
-import React, {useState} from 'react';
-import TableOne from "./Table/TableOne";
+import React from 'react';
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import main from "./main/main";
+import main2 from "./main/main2";
 
 
-const App = () => {
-
-    const usersData = [
-        { folio: 1, fecha: '12-07-2020', status: 'Disponible', responsable: 'Francisco', proyecto:'AT&T', ubicacion:'Ajusco' },
-        { folio: 2, fecha: '15-07-2020', status: 'Disponible', responsable: 'Carlos', proyecto:'Elektra', ubicacion:'Tlalpan' },
-        { folio: 3, fecha: '25-07-2020', status: 'Disponible', responsable: 'Jose', proyecto:'Liverpool', ubicacion:'Perisur' },
-    ]
-
-    const [users, setUsers] = useState(usersData)
-
+function App() {
   return (
-    <div className="container">
-      <div className="flex-row">
-        <div className="flex-large">
-          <TableOne users={users}/>
-        </div>
-      </div>
-    </div>
+        <Router>
+            <Switch>
+                <Route path="/main" component={main}/>
+                <Route path="/main2" component={main2}/>
+            </Switch>
+        </Router>
   );
 }
 

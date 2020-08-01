@@ -1,0 +1,59 @@
+
+[{
+  "folio": 1,
+  "fecha": "12-07-2020",
+  "status": "No Disponible",
+  "responsable": "Francisco",
+  "proyecto": "AT&T",
+  "ubicacion": "Ajusco"
+  }, {
+  "folio": 2,
+  "fecha": "15-07-2020",
+  "status": "No Disponible",
+  "responsable": "Carlos",
+  "proyecto": "Elektra",
+  "ubicacion": "Tlalpan"
+  }, {
+  "folio": 3,
+  "fecha": "25-07-2020",
+  "status": "No Disponible",
+  "responsable": "Jose",
+  "proyecto": "Liverpool",
+  "ubicacion": "Perisur"
+  }, {
+  "folio": 4,
+  "fecha": "27-07-2020",
+  "status": "No disponible",
+  "responsable": "Mariana",
+  "proyecto": "Banco Azteca",
+  "ubicacion": "Perisur"
+  }, {
+  "folio": 5,
+  "fecha": "28-07-2020",
+  "status": "No disponible",
+  "responsable": "Josefa",
+  "proyecto": "Italika",
+  "ubicacion": "Perisur"
+ }, {
+  "folio": 6,
+  "fecha": "29-07-2020",
+  "status": "No disponible",
+  "responsable": "Veronica",
+  "proyecto": "Liverpool",
+  "ubicacion": "Tlalpan"
+  }, {
+  "folio": 7,
+  "fecha": "29-07-2020",
+  "status": "No disponible",
+  "responsable": "Laura",
+  "proyecto": "Liverpool",
+  "ubicacion": "Tlalpan"
+  }, {
+  "folio": 8,
+  "fecha": "31-07-2020",
+  "status": "No Disponible",
+  "responsable": "Mauro",
+  "proyecto": "AT&T",
+  "ubicacion": "Perisur"
+  }
+]
