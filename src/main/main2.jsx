@@ -4,7 +4,7 @@ import { Grid, GridColumn as Column } from '@progress/kendo-react-grid';
 
 import products2 from '../products2.json';
 
-class main2 extends React.PureComponent {
+class main2 extends React.Component {
 
     render() {
         return (
